@@ -1,8 +1,29 @@
+
+
+.technologies {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 350px;
+}
+
+#introduction {
+  padding: 52px;
+  height: 600px;
+  margin-top: 20px;
+}
+
 body {
-  background-color: #F7F7F7;
+  background-color: white !important;
   color: rgb(50, 50, 50);
   font-family: Arial, sans-serif;
   letter-spacing: 1.5px;
+}
+
+.job-description {
+  text-align: left;
+  margin-left: 40px;
 }
 
 ul {
@@ -23,6 +44,23 @@ h1 {
   font-size: 25px
 }
 
+.firm-box {
+  display: flex;
+  align-items: center;
+}
+
+.background {
+  display: flex;
+}
+
+.firm-box2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding:20px
+}
+
 li {
   list-style-type: none;
   text-underline-position: : none;
@@ -32,34 +70,32 @@ li {
   text-align: center;
 }
 
-#introduction {
-  padding: 52px
-/*  margin-top: 20px;
-*/}
 
-.box {
-  margin: 50px;
-  border-radius: 20px;
-}
 
-.box h1 {
-  padding: 15px;
-  margin-top: 10px;
-}
 
 #job {
   padding: 18px
 }
 
-p {
-  margin: 20px 60px;
-  padding: 30px
-}
 
-.box {
+/*.box {
+ margin: 50px;
+ border-radius: 20px;
  background: white;
  box-shadow: 2px 2px 3px rgb(225, 225, 225);;
- padding: 22px
+ padding: 22px;
+ margin-bottom: 100px
+}*/
+
+.img-box {
+  width: 260px;
+  height: 260px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
 }
 
 .button {
@@ -156,11 +192,11 @@ h2, .list-inline ul {
       padding: 12;
     }
 
-    p {
+/*    p {
       font-size: 6px;
       padding: 0px 10px 0px 10px;
       margin: 0px 10px 0px 10px;
-    }
+    }*/
 
     a.button {
       font-size: 5px.
