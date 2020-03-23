@@ -5,18 +5,26 @@
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  height: 350px;
+  height: 300px;
+}
+
+.computer {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 522px; right: 0;
+  width: 180px
+}
 }
 
 #introduction {
   padding: 52px;
-  height: 600px;
+  height: 750px;
   margin-top: 20px;
 }
 
 body {
   background-color: white !important;
-  color: rgb(50, 50, 50);
+  color: #414444 !important;
   font-family: Arial, sans-serif;
   letter-spacing: 1.5px;
 }
@@ -90,7 +98,7 @@ li {
 .img-box {
   width: 260px;
   height: 260px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +107,7 @@ li {
 }
 
 .button {
-  background-color: #08415C; /* Green */
+  background-color: #EF5B5B; /* Green */
   border: none;
   color: white;
   padding: 18px 36px;
