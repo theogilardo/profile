@@ -203,9 +203,38 @@ i {
   .container {
     width: 700px;
   }
+
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+
+
+/*CONTACT ME*/
+
+  .contact-flex {
+    display: block;
+    height: 75%;
+  }
+
+  .contact-icons {
+    width: 100px
+  }
+
+  .contact-flex div p {
+    font-size: 15px
+  }
+
+  .contact-box h1 {
+    font-size: 35px;
+  }
+
+/*PROJECTS*/
+
+  .
+
+/*OTHERS*/
+
   .container {
     width: 500px;
   }
