@@ -162,7 +162,6 @@ li {
   align-items: center;
   color: white;
   font-size: 25px;
-
 }
 
 .button {
@@ -210,6 +209,32 @@ i {
   /* For a screen < 720px, this CSS will be read */
 
 
+/*TECHNOLOGIES*/
+
+  .computer h1 {
+    font-size: 35px;
+  }
+
+  .icons {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 15px
+  }
+
+  .icons h3 {
+    font-size: 26px
+  }
+
+  #js {
+    width: 160px;
+    height: 75px;
+    margin-bottom: 15px
+  }
+
+  #technologies h1 {
+    font-size: 35px;
+  }
+
 /*CONTACT ME*/
 
   .contact-flex {
@@ -231,7 +256,24 @@ i {
 
 /*PROJECTS*/
 
-  .
+  .img-box {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+  }
+
+  .project-box {
+    height: 435px
+  }
+
+  .project-box h1 {
+   font-size: 35px;
+  }
 
 /*OTHERS*/
 
@@ -252,26 +294,18 @@ i {
   }
 
   p {
-    font-size: 12px;
+    font-size: 15px;
     padding: 0px
-  }
-
-  a.button {
-    font-size: 10px
-    padding: 12px 24px;
-    font-size: 12px;
   }
 
   #introduction {
   padding: 2px 4px;
 }
 
-h2, .list-inline ul {
-  font-size: 12px;
-}
 
-@media (max-width: 540px) {
+@media (max-width: 595px) {
   /* For a screen < 540px, this CSS will be read */
+
   .container {
     width: 300px;
   }
@@ -280,32 +314,91 @@ h2, .list-inline ul {
     }
 
     #profile-photo {
-      width: 75px
-    }
-
-    #job {
-      font-size: 8px;
-      padding: 12;
-    }
-
-/*    p {
-      font-size: 6px;
-      padding: 0px 10px 0px 10px;
-      margin: 0px 10px 0px 10px;
-    }*/
-
-    a.button {
-      font-size: 5px.
-      padding: 4px 8px;
-      font-size: 6px;
+      width: 180px
     }
 
     #introduction {
     padding: 1px 2px;
   }
 
-  h2, .list-inline ul {
-    font-size: 4px;
+  #introduction div h1 {
+    font-size: 28px
   }
 
+/*PROJECTS*/
+
+.project-box {
+  height: 640px
+}
+
+.project-box h1 {
+  padding-top: 25px;
+  margin-bottom: -10px;
+  text-align: center
+}
+
+.firm-box2 {
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+
+.img-box {
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  margin: 30px auto;
+}
+
+/*TECHNOLOGIES*/
+
+.computer h1 {
+  font-size: 20px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px
+}
+
+
+#js {
+  width: 110px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+
+#technologies h1 {
+  font-size: 20px;
+  padding-bottom: 10px
+}
+
+.technologies {
+  display: block;
+  height: 450px;
+}
+
+.technologies h3 {
+  font-size: 15px;
+}
+
+.computer {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 685px; right: 0;
+  width: 225px
+}
+}
+
+/*#technologies {
+  position: relative;
+  margin-top: 175px ;
+  background-color: #005377;
+  color: white
+}*/
 
