@@ -25,8 +25,42 @@
   color: white
 }
 
-.contact {
+.contact-icons {
   width: 150px
+}
+
+.contact-flex div p {
+  padding: 25px;
+  font-size: 25px
+}
+
+.contact-box {
+  height: 500px;
+  background-color: #F4D35E
+}
+
+.contact-box h1 {
+  color: #EF5B5B;
+  height: 25%;
+  font-size: 45px;
+  padding: 45px
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75%
+}
+
+.project-box {
+  height: 500px
+}
+
+.project-box h1 {
+  padding-top: 25px;
+  margin-bottom: 50px;
+  text-align: center
 }
 
 .computer {
@@ -128,6 +162,7 @@ li {
   align-items: center;
   color: white;
   font-size: 25px;
+
 }
 
 .button {
