@@ -6,6 +6,29 @@
   height: 300px;
 }
 
+
+.icons {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+#js {
+  width: 190px;
+  height: 100px;
+  margin-bottom: 15px
+}
+
+#technologies {
+  position: relative;
+  margin-top: 175px ;
+  background-color: #005377;
+  color: white
+}
+
+.contact {
+  width: 150px
+}
+
 .computer {
   margin: auto;
   position: absolute;
