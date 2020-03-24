@@ -334,7 +334,8 @@ i {
 .project-box h1 {
   padding-top: 25px;
   margin-bottom: -10px;
-  text-align: center
+  text-align: center;
+  font-size: 32px;
 }
 
 .firm-box2 {
